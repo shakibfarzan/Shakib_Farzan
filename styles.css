@@ -1,11 +1,11 @@
 :root {
-  --color-text: rgb(0, 0, 0);
+  --color-text: rgb(255, 255, 255);
   --color-text-btn: aliceblue;
-  --color-text-lighter: rgb(223, 222, 222);
-  --color-background-1: rgb(0, 151, 81);
-  --color-background-1-darker: rgb(0, 109, 49);
-  --color-background-2: rgb(51, 190, 178);
-  --color-background-2-darker: rgb(43, 151, 137);
+  --color-text-lighter: rgb(199, 199, 199);
+  --color-background-1: rgb(0, 107, 121);
+  --color-background-1-darker: rgb(0, 63, 63);
+  --color-background-2: rgb(2, 156, 28);
+  --color-background-2-darker: rgb(0, 94, 20);
 }
 
 html {
