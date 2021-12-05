@@ -86,6 +86,15 @@ document.getElementById("search-btn").onclick = (e) => {
   }, 5000);
 };
 
+document.querySelector(".menu-bar").onclick = (e) => {
+  const navbarItems = document.querySelector(".navbar-items");
+  if (!navbarItems.style.display || navbarItems.style.display == "none") {
+    navbarItems.style.display = "inline-block";
+  } else {
+    navbarItems.style.display = "none";
+  }
+};
+
 },{"toastify-js":2}],2:[function(require,module,exports){
 /*!
  * Toastify js 1.11.2

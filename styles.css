@@ -211,6 +211,18 @@ tr:nth-child(even) {
   padding: 4rem 1rem 1rem 1rem;
 }
 
+.menu-bar {
+  margin: auto;
+  fill: var(--color-text-lighter);
+  cursor: pointer;
+  transition: fill 0.4s ease;
+  display: none;
+}
+
+.menu-bar:hover {
+  fill: var(--color-text);
+}
+
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For mobile phones: */
 [class*="col-"] {
@@ -374,5 +386,33 @@ tr:nth-child(even) {
 
   p {
     font-size: 16px;
+  }
+  .navbar-items {
+    display: none !important;
+  }
+}
+
+.navbar-items {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar-items {
+    position: fixed;
+    top: 57px;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+    margin-top: 0;
+    display: none;
+    width: -webkit-fill-available;
+  }
+  .navbar-items li {
+    margin-top: 0.5rem;
+  }
+  .menu-bar {
+    display: inline;
+  }
+  .navbar ul {
+    display: none;
   }
 }
