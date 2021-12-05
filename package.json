@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/shakibfarzan/Shakib_Farzan#readme",
   "dependencies": {
-    "smartmenus": "^1.1.1"
+    "toastify-js": "^1.11.2"
   }
 }
