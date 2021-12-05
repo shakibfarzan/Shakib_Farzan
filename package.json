@@ -1,0 +1,22 @@
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakibfarzan/Shakib_Farzan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakibfarzan/Shakib_Farzan/issues"
+  },
+  "homepage": "https://github.com/shakibfarzan/Shakib_Farzan#readme",
+  "dependencies": {
+    "smartmenus": "^1.1.1"
+  }
+}
