@@ -10,6 +10,7 @@ const colorBg2DarkerLight = "#005e14";
 
 const paragraphs = document.querySelectorAll("p");
 const tds = document.querySelectorAll("td");
+const navbarItems = document.querySelector(".navbar-items");
 
 document.getElementById("dark-light-btn").onclick = (e) => {
   const element = e.target;
@@ -87,12 +88,15 @@ document.getElementById("search-btn").onclick = (e) => {
 };
 
 document.querySelector(".menu-bar").onclick = (e) => {
-  const navbarItems = document.querySelector(".navbar-items");
   if (!navbarItems.style.display || navbarItems.style.display == "none") {
     navbarItems.style.display = "inline-block";
   } else {
     navbarItems.style.display = "none";
   }
+};
+
+document.querySelector(".navbar-items").onclick = (e) => {
+  navbarItems.style.display = "none";
 };
 
 },{"toastify-js":2}],2:[function(require,module,exports){

@@ -125,6 +125,11 @@ img {
   border: 1px solid var(--color-background-2-darker);
 }
 
+#dark-light-btn {
+  font-size: 20px;
+  padding: 2px;
+}
+
 .search-box {
   display: flex;
   margin: auto;
@@ -342,6 +347,20 @@ tr:nth-child(even) {
   p {
     font-size: 12px;
   }
+
+  #dark-light-btn {
+    font-size: 14px;
+  }
+
+  #search {
+    padding: 0;
+    width: 60%;
+  }
+
+  .menu-bar {
+    margin-right: 1rem;
+    margin-left: -10px;
+  }
 }
 
 @media only screen and (min-width: 925px) {
@@ -358,7 +377,8 @@ tr:nth-child(even) {
     font-size: 15px;
   }
 
-  a {
+  a,
+  #dark-light-btn {
     font-size: 15px;
   }
 
@@ -381,7 +401,8 @@ tr:nth-child(even) {
   }
 
   h3,
-  table {
+  table,
+  #dark-light-btn {
     font-size: 20px;
   }
 
@@ -410,6 +431,7 @@ tr:nth-child(even) {
     margin-top: 0;
     display: none;
     width: -webkit-fill-available;
+    padding: inherit;
   }
   .navbar-items li {
     margin-top: 0.5rem;
