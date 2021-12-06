@@ -329,6 +329,11 @@ tr:nth-child(even) {
   .container {
     flex-wrap: wrap;
   }
+
+  #right-side,
+  #left-side {
+    margin: 0;
+  }
 }
 @media only screen and (max-width: 600px) {
   button,

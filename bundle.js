@@ -14,7 +14,7 @@ const tds = document.querySelectorAll("td");
 document.getElementById("dark-light-btn").onclick = (e) => {
   const element = e.target;
   if (element.classList.contains("dark")) {
-    element.innerHTML = "Dark Mode";
+    element.innerHTML = "🌚";
     element.classList.remove("dark");
     document.documentElement.style.setProperty(
       "--color-background-1",
@@ -29,7 +29,7 @@ document.getElementById("dark-light-btn").onclick = (e) => {
       colorBg2DarkerLight
     );
   } else {
-    element.innerHTML = "Light Mode";
+    element.innerHTML = "🌞";
     element.classList.add("dark");
     document.documentElement.style.setProperty(
       "--color-background-1",
