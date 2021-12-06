@@ -425,7 +425,7 @@ tr:nth-child(even) {
 @media only screen and (max-width: 1200px) {
   .navbar-items {
     position: fixed;
-    top: 57px;
+    top: 50px;
     z-index: 1;
     backdrop-filter: blur(3px);
     margin-top: 0;
@@ -435,6 +435,10 @@ tr:nth-child(even) {
   }
   .navbar-items li {
     margin-top: 0.5rem;
+  }
+
+  .navbar-items li:last-of-type {
+    margin-bottom: 0.5rem;
   }
   .menu-bar {
     display: inline;
