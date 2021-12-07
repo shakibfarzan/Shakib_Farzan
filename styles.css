@@ -228,6 +228,9 @@ tr:nth-child(even) {
   fill: var(--color-text);
 }
 
+#map-example-container {
+  height: 300px;
+}
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For mobile phones: */
 [class*="col-"] {
@@ -353,7 +356,7 @@ tr:nth-child(even) {
   }
 
   #search {
-    padding: 0;
+    padding: 0 0 0 0.5rem;
     width: 60%;
   }
 
