@@ -1,4 +1,5 @@
 const Toastify = require("toastify-js");
+const L = require("leaflet");
 
 const colorBg1DarkerDark = "#000000";
 const colorBg2Dark = "#4b096c";
@@ -97,3 +98,17 @@ document.querySelector(".menu-bar").onclick = (e) => {
 document.querySelector(".navbar-items").onclick = (e) => {
   navbarItems.style.display = "none";
 };
+
+var map = L.map("map").setView([36.416775, -3.70379], 5);
+
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
+
+const data = require("./data");
+data.forEach((city) => {
+  L.marker([city.lat, city.long]).addTo(map).bindPopup(city.name);
+});
+
+L.tooltip("Largest cities");

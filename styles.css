@@ -228,8 +228,8 @@ tr:nth-child(even) {
   fill: var(--color-text);
 }
 
-#map-example-container {
-  height: 300px;
+#map {
+  height: 500px;
 }
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For mobile phones: */

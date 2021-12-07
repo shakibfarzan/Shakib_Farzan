@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/shakibfarzan/Shakib_Farzan#readme",
   "dependencies": {
+    "leaflet": "^1.7.1",
+    "leaflet-search": "^3.0.2",
     "toastify-js": "^1.11.2"
   }
 }
