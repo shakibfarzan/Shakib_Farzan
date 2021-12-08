@@ -36,6 +36,10 @@ img {
   width: 100%;
 }
 
+img[alt="Spain Flag"] {
+  border-radius: 100%;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.58);
+}
 .container {
   margin: 4.5rem 1rem 2rem 1rem;
   display: flex;
@@ -161,8 +165,12 @@ input:focus {
 
 img[alt="Madrid"] {
   border-radius: 10px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.58);
 }
 
+img[alt="Area and Population"] {
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.58);
+}
 table,
 td,
 th {
@@ -207,6 +215,7 @@ tr:nth-child(even) {
 #left-side img {
   border-radius: 10px;
   margin-bottom: 1rem;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.58);
 }
 
 .col-12 {
@@ -230,6 +239,7 @@ tr:nth-child(even) {
 
 #map {
   height: 500px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0.58);
 }
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For mobile phones: */
