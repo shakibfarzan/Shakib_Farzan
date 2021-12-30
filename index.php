@@ -11,12 +11,17 @@
 
 <body>
     <div class="container">
-        <form>
-            <input type="text" name="calculateInput" id="calculateInput" placeholder="Enter your expression...">
-            <button type="submit" name="calculateBtn" id="claculateBtn">Calculate</button>
-        </form>
+        <?php
+        if (isset($_GET['calculateBtn'])) {
+            $input = $_GET['calculateInput'];
+            $res = eval('return ' . $input . ';');
+            echo "<p>Result is $res</p>";
+            echo "<a href=<?php include('form.php');?>Back</a>";
+        } else {
+            include('form.php');
+        }
+        ?>
     </div>
-
 </body>
 
 </html>

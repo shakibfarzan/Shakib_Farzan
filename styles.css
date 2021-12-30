@@ -1,7 +1,18 @@
 .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin: 10rem;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form button{
+    margin-left: 0.5rem;
 }
 
 input{
@@ -28,4 +39,27 @@ button{
 button:hover{
     background-color: rgb(52, 52, 179);
     box-shadow: 0 1px 3px 0 rgb(60, 60, 219), 0 1px 2px 0 rgb(60, 60, 219);
+}
+
+p{
+    text-align: center;
+    font: 500 large sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(60, 60, 219);
+    font: 500 large sans-serif;
+    text-align: center;
+    width: fit-content;
+    align-self: center;
+    background-color: rgb(236, 236, 236);
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 #36363625, 0 1px 2px 0 #74747498;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    color: rgb(47, 27, 138);
 }
